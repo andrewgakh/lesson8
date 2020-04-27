@@ -39,7 +39,7 @@ def cr_list(x):
     return x_list
 
 print()
-print('Задача 2.')
+print('Задача 3.')
 num = 1000000
 
 print('Создание листа c элементами ')

@@ -19,7 +19,6 @@ def delta_time(ff):     # Декоратор измеряющий затраче
     return wrapped
 
 @delta_time
-@delta_mem
 def my_add(x,y):
     for i in range(10000000):
         k = 0
@@ -45,8 +44,7 @@ def cr_list(x):
 @delta_time
 def cr_gen(x):
     for i in range(1, x+1):
-        y = i**2
-        yield y
+        yield (i**2)
 
 print()
 print('Задача 2.')
@@ -58,3 +56,4 @@ cr_list(num)
 print()
 print('Создание генератора ')
 cr_gen(num)
+

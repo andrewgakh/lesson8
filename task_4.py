@@ -33,7 +33,7 @@ def cr_gen(x):
         yield y
 
 print()
-print('Задача 2.')
+print('Задача 4.')
 num = 1000000
 
 print('Создание листа c элементами ')
